@@ -1,5 +1,19 @@
 # Histórico de versões
 
+## v2.1.0 · 13/11/2026 · versão mais recente
+
+- **Túnel nas ruas transversais:** as duas ruas que cruzam a avenida agora descem em perspectiva e entram num túnel sob o morro, com portal de concreto, moldura listrada de amarelo e preto, placa "TÚNEL", lâmpadas no teto, muros laterais e luz da saída lá no fundo.
+- **Atropelamento refeito, em quatro tempos:**
+  1. Os faróis acendem no fundo do túnel e o carro (vermelho, visto de frente) se aproxima; dentro do túnel ele é quase só silhueta.
+  2. Buzina, o protagonista se vira assustado, e o carro sai do túnel acelerando. A freada chega tarde, com fumaça nos pneus.
+  3. Impacto: clarão curto, cacos de vidro que caem e ficam no asfalto, e o corpo é arremessado girando.
+  4. O corpo quica, rola e para. Se Caramelo estiver seguindo o protagonista, ele corre até ele.
+
+  Na v2.0.0 o acidente era um carro crescendo na tela e um clarão branco.
+- **Pedestres mais vivos:** entram pelas bordas da tela ou saem pelas portas de lojas e prédios, e terminam atravessando a tela ou entrando em outra porta, sempre com transição suave. Perto de uma cena, somem aos poucos em vez de piscar. Na última rua ninguém atravessa: quem chega dá meia-volta.
+- A van da fiscalização fica rente ao meio-fio, e os carros da faixa passam na frente dela.
+- Carrinho de pipoca maior e com letreiro, banca com cavalete e primeira página do jornal, e árvores da praça em novas posições.
+
 ## v2.0.0 · 13/11/2026
 
 Nova build. A história, os diálogos e os três finais continuam os mesmos da v1; mudam a arte, o som, a interface e a exploração.
