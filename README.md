@@ -5,7 +5,7 @@ No fim de tarde, você volta a pé para casa atravessando o centro da cidade. No
 
 Feito em HTML5 Canvas puro, num único arquivo, sem imagens nem sons externos: toda a arte é desenhada em código e toda a trilha é sintetizada com a Web Audio API.
 
-Versão atual: **v1.0.0** · veja o [CHANGELOG](CHANGELOG.md).
+Versão atual: **v1.1.0** · veja o [CHANGELOG](CHANGELOG.md).
 
 ---
 
@@ -55,7 +55,7 @@ A tela final traz a explicação sociológica, a consequência e o resumo das su
 ## Estrutura do repositório
 
 ```
-index.html        o jogo, v1.0.0 (arquivo único)
+index.html        o jogo, v1.1.0 (arquivo único)
 CHANGELOG.md      histórico de versões
 ```
 

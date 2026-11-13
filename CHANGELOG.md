@@ -1,5 +1,9 @@
 # Histórico de versões
 
+## v1.1.0 · 13/11/2026
+
+- **Sem mudanças no jogo.** O arquivo entregue como v1.1.0 é idêntico, byte a byte, ao da v1.0.0 (mesmo SHA-256: `c8984e26…2f1f`). A versão foi registrada separadamente para manter a numeração da equipe. Se havia alterações previstas para a v1.1.0, elas não estão neste arquivo.
+
 ## v1.0.0 · 13/11/2026 · primeira versão
 
 Primeira versão do jogo enviada pela equipe.
