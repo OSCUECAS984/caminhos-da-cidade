@@ -2,6 +2,8 @@
 
 ## v2.1.0 · 13/11/2026 · versão mais recente
 
+Versão mais recente, a mesma do `index.html` da raiz. Todas as versões jogáveis estão em [versoes/](versoes/).
+
 - **Túnel nas ruas transversais:** as duas ruas que cruzam a avenida agora descem em perspectiva e entram num túnel sob o morro, com portal de concreto, moldura listrada de amarelo e preto, placa "TÚNEL", lâmpadas no teto, muros laterais e luz da saída lá no fundo.
 - **Atropelamento refeito, em quatro tempos:**
   1. Os faróis acendem no fundo do túnel e o carro (vermelho, visto de frente) se aproxima; dentro do túnel ele é quase só silhueta.

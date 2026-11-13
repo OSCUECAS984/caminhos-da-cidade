@@ -5,7 +5,9 @@ No fim de tarde, você volta a pé para casa atravessando o centro da cidade. No
 
 Feito em HTML5 Canvas puro, num único arquivo, sem imagens nem sons externos: toda a arte é desenhada em código e toda a trilha é sintetizada com a Web Audio API.
 
-Versão atual: **v2.1.0** · veja o [CHANGELOG](CHANGELOG.md).
+> **Versão mais recente: v2.1.0.** O `index.html` da raiz é essa versão. As versões anteriores continuam disponíveis em [`versoes/`](versoes/).
+
+Versão atual: **v2.1.0** · veja o [CHANGELOG](CHANGELOG.md) e as [versões anteriores](versoes/).
 
 ---
 
@@ -60,6 +62,7 @@ A tela final traz a explicação sociológica, a consequência e o resumo das su
 
 ```
 index.html        o jogo, v2.1.0 (arquivo único)
+versoes/          cada versão publicada, jogável: versoes/vX.Y.Z/index.html
 CHANGELOG.md      histórico de versões
 ```
 
