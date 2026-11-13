@@ -1,5 +1,30 @@
 # Histórico de versões
 
+## v2.0.0 · 13/11/2026
+
+Nova build. A história, os diálogos e os três finais continuam os mesmos da v1; mudam a arte, o som, a interface e a exploração.
+
+- **Arte refeita:** sprites desenhados num buffer com contorno seletivo (o contorno puxa um tom escuro da cor vizinha), sombras que tendem ao roxo e luzes ao amarelo, e pontilhado (dithering) em sombras e no céu. Fonte bitmap própria, com acentos, para letreiros e placas.
+- **Personagens e cidade com mais detalhe:** roupas e poses novas (Caio de moletom com capuz, Jorge sentado no chão), gato, pombos, ônibus e moto no trânsito. Fachadas texturizadas, pichações, poças, TVs acesas nas janelas e ipês amarelos e roxos nas calçadas.
+- **Interface em pixel art:** molduras desenhadas, caixa de diálogo com **retrato** de quem fala e **balões de emoção** (!, coração, raiva, suor, nota) quando o humor de um personagem muda.
+- **Olhares (exploração opcional):** 8 pontos **?** pela cidade. Com `E`, `↑` ou `W` (ou o botão OLHAR no celular), o protagonista para e observa:
+  - a manchete da banca sobre informalidade;
+  - o piso tátil que termina num poste (norma ABNT NBR 9050);
+  - o preço da passagem no ponto de ônibus (*direito à cidade*, Henri Lefebvre);
+  - o tênis do Caio na vitrine (*sociedade de consumo*, Bauman);
+  - **Wesley**, entregador de aplicativo, personagem novo (*uberização do trabalho*, Ricardo Antunes);
+  - o quadro de preços do mercado (fome no Brasil, Rede PENSSAN);
+  - os pinos sob a marquise do banco (*arquitetura hostil*, Lei 14.489/2022, Lei Padre Júlio Lancellotti);
+  - um gato preto no muro.
+
+  O HUD conta **OLHARES x/8**. Os olhares não mudam a pontuação.
+- **Respostas embaralhadas** a cada situação e numeradas 1, 2 e 3 (na v1 a resposta boa era sempre a primeira).
+- **Pausa** com `Esc`, `P` ou o botão II: continuar, ligar ou desligar o som e escolher a velocidade do texto (Normal ou Veloz, guardada no navegador).
+- **Trilha nova:** sequenciador com levada de bossa nova na cidade, tema noturno na segunda metade do caminho e temas próprios para céu, purgatório e inferno. Ambiência de zumbido urbano e chuva. Com a noite chega a chuva, e os pedestres abrem guarda-chuva.
+- Caramelo ganha uma bandana quando é adotado.
+- **Tela final** com estatísticas (olhares atentos e finais descobertos). O menu mostra os selos dos finais que já foram vistos (Céu, Purgatório, Inferno), guardados no navegador.
+- No celular em pé, o menu pede para girar a tela para a horizontal. A imagem usa escala inteira quando isso quase não perde espaço.
+
 ## v1.1.0 · 13/11/2026
 
 - **Sem mudanças no jogo.** O arquivo entregue como v1.1.0 é idêntico, byte a byte, ao da v1.0.0 (mesmo SHA-256: `c8984e26…2f1f`). A versão foi registrada separadamente para manter a numeração da equipe. Se havia alterações previstas para a v1.1.0, elas não estão neste arquivo.

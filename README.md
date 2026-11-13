@@ -5,7 +5,7 @@ No fim de tarde, você volta a pé para casa atravessando o centro da cidade. No
 
 Feito em HTML5 Canvas puro, num único arquivo, sem imagens nem sons externos: toda a arte é desenhada em código e toda a trilha é sintetizada com a Web Audio API.
 
-Versão atual: **v1.1.0** · veja o [CHANGELOG](CHANGELOG.md).
+Versão atual: **v2.0.0** · veja o [CHANGELOG](CHANGELOG.md).
 
 ---
 
@@ -20,11 +20,13 @@ A música começa no primeiro clique ou toque, porque os navegadores bloqueiam s
 | Tecla | Ação |
 |---|---|
 | `←` `→` ou `A` `D` | Caminhar |
+| `E`, `↑` ou `W` | Olhar um ponto **?** de perto |
 | `Espaço` ou `Enter` (ou clique) | Avançar o diálogo |
-| `1` `2` `3` (ou clique) | Escolher a resposta A, B ou C |
+| `1` `2` `3` (ou clique) | Escolher a resposta |
+| `Esc` ou `P` | Pausa (som e velocidade do texto) |
 | `M` | Ligar ou desligar o som |
 
-No celular aparecem botões de toque nos cantos da tela.
+No celular aparecem botões de toque (◀ ▶ e OLHAR). O jogo fica melhor com o celular na horizontal.
 
 ### A jornada
 
@@ -37,6 +39,8 @@ No celular aparecem botões de toque nos cantos da tela.
 | 5 | Rua do Banco | Jorge, em situação de rua, pede algo para comer | Exclusão e invisibilidade social |
 
 Depois de cada resposta aparece uma **Reflexão Sociológica**. Na última rua, a caminho de casa, acontece o atropelamento, e a pontuação decide o final.
+
+Pelo caminho há também 8 pontos **?** opcionais (os *olhares*): a banca de jornal, o piso tátil, o ponto de ônibus, a vitrine, o entregador Wesley, o quadro do mercado, a marquise do banco e um gato no muro. Eles não mudam a pontuação, mas acrescentam conceitos como direito à cidade, uberização e arquitetura hostil.
 
 ### Pontuação e finais
 
@@ -55,7 +59,7 @@ A tela final traz a explicação sociológica, a consequência e o resumo das su
 ## Estrutura do repositório
 
 ```
-index.html        o jogo, v1.1.0 (arquivo único)
+index.html        o jogo, v2.0.0 (arquivo único)
 CHANGELOG.md      histórico de versões
 ```
 
@@ -64,6 +68,7 @@ CHANGELOG.md      histórico de versões
 - Resolução interna de 225 px de altura e largura entre 300 e 520 px (acompanha a proporção da tela), ampliada sem suavização (`image-rendering: pixelated`).
 - A cidade tem 3.640 px de largura, desenhada uma vez em camadas de dia e de noite; o céu e o horizonte se movem em paralaxe.
 - Iluminação por mapa de escuridão, com luz de janelas, postes, letreiros e faróis.
+- Preferências (velocidade do texto) e finais descobertos ficam salvos no navegador (`localStorage`).
 
 ---
 
@@ -71,7 +76,7 @@ CHANGELOG.md      histórico de versões
 
 - Ideia, roteiro e direção: equipe do projeto **Jogo Sociologia**.
 - Código e pixel art gerados com Claude (Anthropic), a partir das especificações da equipe.
-- Referências sociológicas citadas no jogo: Anthony Giddens, Zygmunt Bauman, Pierre Bourdieu, Silvio Almeida, Fernando Braga da Costa; dados do IBGE; Lei Brasileira de Inclusão (13.146/2015), Lei de Crimes Ambientais (9.605/98) e Lei 14.064/2020.
+- Referências sociológicas citadas no jogo: Anthony Giddens, Zygmunt Bauman, Pierre Bourdieu, Silvio Almeida, Fernando Braga da Costa, Henri Lefebvre, Ricardo Antunes; dados do IBGE e da Rede PENSSAN; Lei Brasileira de Inclusão (13.146/2015), Lei de Crimes Ambientais (9.605/98) e Lei 14.064/2020, Lei 14.489/2022 e ABNT NBR 9050.
 
 ## Licença
 
