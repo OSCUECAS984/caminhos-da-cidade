@@ -7,6 +7,9 @@ Feito em HTML5 Canvas puro, num único arquivo, sem imagens nem sons externos: t
 
 > **Versão mais recente: v2.1.0.** O `index.html` da raiz é essa versão. As versões anteriores continuam disponíveis em [`versoes/`](versoes/).
 
+**▶ Jogue no navegador:** https://oscuecas984.github.io/caminhos-da-cidade/ (GitHub Pages)  
+Versões anteriores online: `https://oscuecas984.github.io/caminhos-da-cidade/versoes/vX.Y.Z/`
+
 Versão atual: **v2.1.0** · veja o [CHANGELOG](CHANGELOG.md) e as [versões anteriores](versoes/).
 
 ---
