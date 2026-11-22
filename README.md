@@ -5,12 +5,12 @@ No fim de tarde, você volta a pé para casa atravessando o centro da cidade. No
 
 Feito em HTML5 Canvas puro, num único arquivo, sem imagens nem sons externos: toda a arte é desenhada em código e toda a trilha é sintetizada com a Web Audio API.
 
-> **Versão mais recente: v2.1.0.** O `index.html` da raiz é essa versão. As versões anteriores continuam disponíveis em [`versoes/`](versoes/).
+> **Versão final de lançamento: v2.1.0.** O `index.html` da raiz é o jogo lançado. As versões anteriores continuam disponíveis em [`versoes/`](versoes/).
 
 **▶ Jogue no navegador:** https://oscuecas984.github.io/caminhos-da-cidade/ (GitHub Pages)  
 Versões anteriores online: `https://oscuecas984.github.io/caminhos-da-cidade/versoes/vX.Y.Z/`
 
-Versão atual: **v2.1.0** · veja o [CHANGELOG](CHANGELOG.md) e as [versões anteriores](versoes/).
+Versão final: **v2.1.0** (lançamento) · veja o [CHANGELOG](CHANGELOG.md) e as [versões anteriores](versoes/).
 
 ---
 
@@ -64,8 +64,9 @@ A tela final traz a explicação sociológica, a consequência e o resumo das su
 ## Estrutura do repositório
 
 ```
-index.html        o jogo, v2.1.0 (arquivo único)
+index.html        o jogo lançado, v2.1.0 (arquivo único)
 versoes/          cada versão publicada, jogável: versoes/vX.Y.Z/index.html
+docs/             documento de game design
 CHANGELOG.md      histórico de versões
 ```
 
